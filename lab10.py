@@ -30,4 +30,5 @@ if __name__ == "__main__":
         message = sys.stdin.read()
 
     print(encode(message, key))
+    print("The End")
     sys.exit(0)
